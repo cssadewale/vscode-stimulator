@@ -1,0 +1,13 @@
+services:
+  vscode-stimulator:
+    build: .
+    container_name: vscode-stimulator
+    ports:
+      - "5000:5000"
+    environment:
+      SECRET_KEY: "change-this-secret"
+      IDE_PASSWORD: "change-this-password"
+      WORKSPACE_ROOT: "/app/workspace"
+    volumes:
+      - ./workspace:/app/workspace
+    restart: unless-stopped

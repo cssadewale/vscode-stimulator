@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# IDE/workspace runtime files
+workspace/.history/
+workspace/.run_history.json
+workspace/.snippets.json
+workspace/exports/*.png
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

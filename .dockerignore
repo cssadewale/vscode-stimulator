@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.git/
+node_modules/
+workspace/.history/
+workspace/.audit_log.jsonl
+workspace/.run_history.json
+workspace/.snippets.json
+workspace/.enterprise_policy.json
+*.zip
+.DS_Store
